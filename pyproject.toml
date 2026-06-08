@@ -5,12 +5,17 @@ description = "Policy zoo for MolmoSpaces"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "molmo-spaces[mujoco] @ git+https://github.com/allenai/molmospaces.git@b4ed488c4e8cfb9a4abff177a21787ddc22f922c",
+    "molmo-spaces[mujoco] @ git+https://github.com/allenai/molmospaces.git@80f56be5cb3fa10d83158ddf88d885fe68ff0fcc",
 ]
 
 [project.optional-dependencies]
 dev = [
     "ruff>=0.13.1",
+]
+
+molmobot = [
+    "molmobot @ git+https://github.com/allenai/MolmoBot.git@33c0ca77bf6062a23d60ffd4a6859334c4a46d30#subdirectory=MolmoBot",
+    "torchmetrics",
 ]
 
 [tool.ruff]
