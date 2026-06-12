@@ -5,7 +5,7 @@ description = "Policy zoo for MolmoSpaces"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "molmo-spaces[mujoco] @ git+https://github.com/allenai/molmospaces.git@c952505733dc015b151a1fe244d2fac26e553f29",
+    "molmo-spaces[mujoco] @ git+https://github.com/allenai/molmospaces.git@v0.2.0",
 ]
 
 [project.optional-dependencies]
